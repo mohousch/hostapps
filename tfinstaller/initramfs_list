@@ -57,7 +57,7 @@ nod   /dev/zero       0744 0 0 c   1   5
 slink /dev/fb         /dev/fb0  0744 0 0
 
 dir   /bin                                                                                0777 0 0
-file  /bin/busybox                     ../../tufsbox/release/bin/busybox                  0755 0 0
+file  /bin/busybox                     ../../release/bin/busybox                  0755 0 0
 slink /bin/echo                        /bin/busybox                                       0777 0 0
 slink /bin/ash                         /bin/busybox                                       0777 0 0
 slink /bin/chmod                       /bin/busybox                                       0777 0 0
@@ -84,11 +84,11 @@ slink /bin/sed                         /bin/busybox                             
 slink /bin/tar                         /bin/busybox                                       0777 0 0
 
 dir   /etc                                                                                0777 0 0
-file  /etc/inittab                     ../../hostapps/tfinstaller/inittab                          0755 0 0
+file  /etc/inittab                     ../../../../hostapps/tfinstaller/inittab                          0755 0 0
 
 dir   /etc/init.d                                                                         0777 0 0
-file  /etc/init.d/rc                   ../../tufsbox/release/etc/init.d/rc                0755 0 0
-file  /etc/init.d/rcS                  ../../hostapps/tfinstaller/rcS                              0755 0 0
+file  /etc/init.d/rc                   ../../release/etc/init.d/rc                0755 0 0
+file  /etc/init.d/rcS                  ../../../../hostapps/tfinstaller/rcS                              0755 0 0
 
 dir   /etc/rc.d                                                                           0777 0 0
 dir   /etc/rc.d/rc0.d                                                                     0777 0 0
@@ -101,27 +101,27 @@ dir   /etc/rc.d/rc6.d                                                           
 dir   /etc/rc.d/rcS.d                                                                     0777 0 0
 
 dir   /deploy                                                                             0777 0 0
-file  /deploy/deploy.sh                ../../hostapps/tfinstaller/deploy.sh                        0755 0 0
-file  /deploy/U-Boot_Settings_hdd.mtd2 ../../hostapps/tfinstaller/U-Boot_Settings_hdd.mtd2         0755 0 0
-file  /deploy/U-Boot_Settings_usb.mtd2 ../../hostapps/tfinstaller/U-Boot_Settings_usb.mtd2         0755 0 0
-file  /deploy/u-boot.mtd1              ../../hostapps/tfinstaller/u-boot.ftfd                      0755 0 0
-file  /deploy/go_back.sh               ../../hostapps/tfinstaller/go_back.sh                       0755 0 0
+file  /deploy/deploy.sh                ../../../../hostapps/tfinstaller/deploy.sh                        0755 0 0
+file  /deploy/U-Boot_Settings_hdd.mtd2 ../../../../hostapps/tfinstaller/U-Boot_Settings_hdd.mtd2         0755 0 0
+file  /deploy/U-Boot_Settings_usb.mtd2 ../../../../hostapps/tfinstaller/U-Boot_Settings_usb.mtd2         0755 0 0
+file  /deploy/u-boot.mtd1              ../../../../hostapps/tfinstaller/u-boot.ftfd                      0755 0 0
+file  /deploy/go_back.sh               ../../../../hostapps/tfinstaller/go_back.sh                       0755 0 0
 
 dir   /drvko                                                                              0777 0 0
-file  /drvko/e2_proc.ko                ../../tufsbox/release/lib/modules/e2_proc.ko       0755 0 0
-file  /drvko/tffp.ko                   ../../tufsbox/release/lib/modules/tffp.ko          0755 0 0
+file  /drvko/e2_proc.ko                ../../release/lib/modules/e2_proc.ko       0755 0 0
+file  /drvko/tffp.ko                   ../../release/lib/modules/tffp.ko          0755 0 0
 
 dir   /lib                                                                                0777 0 0
-file  /lib/libc.so.6                   ../../tufsbox/release/lib/libc.so.6                0755 0 0
-file  /lib/libpthread.so.0             ../../tufsbox/release/lib/libpthread.so.0          0755 0 0
-file  /lib/ld-linux.so.2               ../../tufsbox/release/lib/ld-linux.so.2            0755 0 0
-file  /lib/libe2p.so.2                 ../../tufsbox/release/usr/lib/libe2p.so.2          0755 0 0
-file  /lib/libext2fs.so.2              ../../tufsbox/release/usr/lib/libext2fs.so.2       0755 0 0
-file  /lib/libcom_err.so.0.0           ../../tufsbox/release/usr/lib/libcom_err.so.0.0    0755 0 0
-file  /lib/libcom_err.so.0             ../../tufsbox/release/usr/lib/libcom_err.so.0      0755 0 0
-file  /lib/libblkid.so.1               ../../tufsbox/release/usr/lib/libblkid.so.1        0755 0 0
-file  /lib/libuuid.so.1                ../../tufsbox/release/usr/lib/libuuid.so.1         0755 0 0
-file  /lib/libcrypt.so.1               ../../tufsbox/release/lib/libcrypt.so.1            0755 0 0
+file  /lib/libc.so.6                   ../../release/lib/libc.so.6                0755 0 0
+file  /lib/libpthread.so.0             ../../release/lib/libpthread.so.0          0755 0 0
+file  /lib/ld-linux.so.2               ../../release/lib/ld-linux.so.2            0755 0 0
+file  /lib/libe2p.so.2                 ../../release/usr/lib/libe2p.so.2          0755 0 0
+file  /lib/libext2fs.so.2              ../../release/usr/lib/libext2fs.so.2       0755 0 0
+file  /lib/libcom_err.so.0.0           ../../release/usr/lib/libcom_err.so.0.0    0755 0 0
+file  /lib/libcom_err.so.0             ../../release/usr/lib/libcom_err.so.0      0755 0 0
+file  /lib/libblkid.so.1               ../../release/usr/lib/libblkid.so.1        0755 0 0
+file  /lib/libuuid.so.1                ../../release/usr/lib/libuuid.so.1         0755 0 0
+file  /lib/libcrypt.so.1               ../../release/lib/libcrypt.so.1            0755 0 0
 
 dir   /proc                                                                               0777 0 0
 
@@ -136,18 +136,18 @@ slink /sbin/umount                     /bin/busybox                             
 slink /sbin/swapoff                    /bin/busybox                                       0755 0 0
 slink /sbin/reboot                     /bin/busybox                                       0755 0 0
 slink /sbin/fdisk                      /bin/busybox                                       0755 0 0
-file  /sbin/init                       ../../tufsbox/release/sbin/init                    0755 0 0
-file  /sbin/mkswap                     ../../tufsbox/release/sbin/mkswap                  0755 0 0
-file  /sbin/sfdisk                     ../../tufsbox/release/sbin/sfdisk                  0755 0 0
-file  /sbin/shutdown                   ../../tufsbox/release/sbin/shutdown                0755 0 0
-file  /sbin/e2fsck                     ../../tufsbox/release/sbin/e2fsck                  0755 0 0
-file  /sbin/tffpctl                    ../../tufsbox/release/bin/tffpctl                  0755 0 0
-file  /sbin/tfd2mtd                    ../../tufsbox/release/bin/tfd2mtd                  0755 0 0
+file  /sbin/init                       ../../release/sbin/init                    0755 0 0
+file  /sbin/mkswap                     ../../release/sbin/mkswap                  0755 0 0
+file  /sbin/sfdisk                     ../../release/sbin/sfdisk                  0755 0 0
+file  /sbin/shutdown                   ../../release/sbin/shutdown                0755 0 0
+file  /sbin/e2fsck                     ../../release/sbin/e2fsck                  0755 0 0
+file  /sbin/tffpctl                    ../../release/bin/tffpctl                  0755 0 0
+file  /sbin/tfd2mtd                    ../../release/bin/tfd2mtd                  0755 0 0
 slink /sbin/fsck.ext2                  /sbin/e2fsck                                       0755 0 0
 slink /sbin/fsck.ext3                  /sbin/e2fsck                                       0755 0 0
 slink /sbin/fsck.ext4                  /sbin/e2fsck                                       0755 0 0
 slink /sbin/fsck.ext4dev               /sbin/e2fsck                                       0755 0 0
-file  /sbin/mke2fs                     ../../tufsbox/release/sbin/mke2fs                  0755 0 0
+file  /sbin/mke2fs                     ../../release/sbin/mke2fs                  0755 0 0
 slink /sbin/mkfs.ext2                  /sbin/mke2fs                                       0755 0 0
 slink /sbin/mkfs.ext3                  /sbin/mke2fs                                       0755 0 0
 slink /sbin/mkfs.ext4                  /sbin/mke2fs                                       0755 0 0
